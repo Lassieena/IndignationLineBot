@@ -39,7 +39,7 @@ function handleEvent(event) {
 
   let replyText = '';
 
-  if (event.message.text.includes("煽る") || event.message.text.includes("煽って") || event.message.text.includes("煽ってください") || event.message.text.includes("罵倒") || event.message.text.includes("罵倒して") || event.message.text.includes("煽り") || event.message.text.includes("死ね")) {
+  if (event.message.text.includes("煽") || event.message.text.includes("あおって") || event.message.text.includes("少女") || event.message.text.includes("罵倒") || event.message.text.includes("あおり") || event.message.text.includes("馬鹿") || event.message.text.includes("バカ") || event.message.text.includes("死ね")) {
 
     const words = [
       '生きている価値あるー？',
